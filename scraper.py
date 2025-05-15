@@ -57,5 +57,5 @@ for site in websites:
     rows.append(row)
 
 df = pd.DataFrame(rows)
-df.to_excel("social_links.xlsx", index=False)
+df.to_excel("/app/social_links.xlsx", index=False)
 print("\n✅ Data saved to social_links.xlsx")
